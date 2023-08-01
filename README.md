@@ -6,7 +6,7 @@ Terraform module which creates an website (S3/CloudFront/HTTPS) on AWS.
 
 ```hcl
 module "website" {
-  source = "genstackio/website/aws"
+  source = "lunii/website/aws"
 
   bucket_name = "my-bucket"
   zone        = "zone-id"
